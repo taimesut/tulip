@@ -200,7 +200,7 @@ body {
 }
 
 .flower__leaf--3 {
-/*   z-index: -1; */
+  /* z-index: -1; */
   left: -270%;
   clip-path: ellipse(40% 50% at 50% 50%);
 }
