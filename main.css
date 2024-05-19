@@ -33,7 +33,7 @@ body {
 
 .flowers {
   position: relative;
-  transform: scale(0.7);
+  transform: scale(0.8);
 }
 
 .flower {
@@ -171,7 +171,7 @@ body {
   height: 20vmin;
   /* border-radius: 51% 49% 47% 53%/44% 45% 55% 69%; */
   background-color: #eb0000ce;
-  background-image: linear-gradient(to top, #e504fa, #a7ffee);
+  background-image: linear-gradient(to top, #FF69B4, #EE6AA7);
   transform-origin: bottom center;
   opacity: 0.9;
   box-shadow: inset 0 0 2vmin rgba(255, 255, 255, 0.5);
@@ -302,52 +302,60 @@ body {
   bottom: 0vmin;
   width: 1vmin;
   height: 1vmin;
-  background-color: #e504fa;
+  background-color: #FF69B4;
   border-radius: 50%;
   filter: blur(0.2vmin);
   animation: light-ans 4s linear infinite backwards;
 }
 
 .flower__light:nth-child(odd) {
-  background-color: #23f0ff;
+  background-color: #EE6AA7;
 }
 
 .flower__light--1 {
+  top: -10vmin;
   left: -2vmin;
   animation-delay: 1s;
 }
 
 .flower__light--2 {
+  top: -10vmin;
   left: 3vmin;
   animation-delay: 0.5s;
 }
 
 .flower__light--3 {
+  top: -10vmin;
   left: -6vmin;
   animation-delay: 0.3s;
 }
 
 .flower__light--4 {
+  top: -10vmin;
   left: 6vmin;
   animation-delay: 0.9s;
 }
 
 .flower__light--5 {
+  top: -10vmin;
   left: -1vmin;
   animation-delay: 1.5s;
 }
 
 .flower__light--6 {
+  top: -10vmin;
   left: -4vmin;
   animation-delay: 3s;
 }
 
 .flower__light--7 {
+  top: -10vmin;
   left: 3vmin;
   animation-delay: 2s;
 }
 
 .flower__light--8 {
+  top: -10vmin;
   left: -6vmin;
   animation-delay: 3.5s;
 }
